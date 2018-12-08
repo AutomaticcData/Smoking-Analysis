@@ -1,0 +1,1562 @@
+,Entity,Year,smokeCount
+0,Afghanistan,1990,6797
+1,Afghanistan,1995,10589
+2,Afghanistan,2000,12987
+3,Afghanistan,2005,15870
+4,Afghanistan,2006,16337
+5,Afghanistan,2010,17677
+6,Afghanistan,2016,20952
+7,Albania,1990,2291
+8,Albania,1995,2477
+9,Albania,2000,2925
+10,Albania,2005,3310
+11,Albania,2006,3317
+12,Albania,2010,3385
+13,Albania,2016,3638
+14,Algeria,1990,8612
+15,Algeria,1995,9103
+16,Algeria,2000,9238
+17,Algeria,2005,9431
+18,Algeria,2006,9354
+19,Algeria,2010,9481
+20,Algeria,2016,10076
+21,American Samoa,1990,35
+22,American Samoa,1995,37
+23,American Samoa,2000,37
+24,American Samoa,2005,40
+25,American Samoa,2006,40
+26,American Samoa,2010,41
+27,American Samoa,2016,48
+28,Andorra,1990,56
+29,Andorra,1995,64
+30,Andorra,2000,60
+31,Andorra,2005,72
+32,Andorra,2006,75
+33,Andorra,2010,84
+34,Andorra,2016,96
+35,Angola,1990,3090
+36,Angola,1995,3460
+37,Angola,2000,3506
+38,Angola,2005,3786
+39,Angola,2006,3871
+40,Angola,2010,4264
+41,Angola,2016,5210
+42,Antigua and Barbuda,1990,12
+43,Antigua and Barbuda,1995,11
+44,Antigua and Barbuda,2000,11
+45,Antigua and Barbuda,2005,10
+46,Antigua and Barbuda,2006,10
+47,Antigua and Barbuda,2010,10
+48,Antigua and Barbuda,2016,11
+49,Argentina,1990,39378
+50,Argentina,1995,39853
+51,Argentina,2000,41873
+52,Argentina,2005,42350
+53,Argentina,2006,42397
+54,Argentina,2010,43059
+55,Argentina,2016,43691
+56,Armenia,1990,4010
+57,Armenia,1995,4859
+58,Armenia,2000,4562
+59,Armenia,2005,4933
+60,Armenia,2006,5099
+61,Armenia,2010,4905
+62,Armenia,2016,4346
+63,Australia,1990,20673
+64,Australia,1995,20013
+65,Australia,2000,18892
+66,Australia,2005,18133
+67,Australia,2006,18316
+68,Australia,2010,19262
+69,Australia,2016,21267
+70,Austria,1990,11173
+71,Austria,1995,10647
+72,Austria,2000,10159
+73,Austria,2005,9469
+74,Austria,2006,9366
+75,Austria,2010,9316
+76,Austria,2016,9688
+77,Azerbaijan,1990,5970
+78,Azerbaijan,1995,6936
+79,Azerbaijan,2000,6916
+80,Azerbaijan,2005,7631
+81,Azerbaijan,2006,7830
+82,Azerbaijan,2010,8693
+83,Azerbaijan,2016,9430
+84,Bahamas,1990,98
+85,Bahamas,1995,109
+86,Bahamas,2000,110
+87,Bahamas,2005,122
+88,Bahamas,2006,119
+89,Bahamas,2010,131
+90,Bahamas,2016,156
+91,Bahrain,1990,281
+92,Bahrain,1995,288
+93,Bahrain,2000,266
+94,Bahrain,2005,256
+95,Bahrain,2006,258
+96,Bahrain,2010,256
+97,Bahrain,2016,287
+98,Bangladesh,1990,82656
+99,Bangladesh,1995,86814
+100,Bangladesh,2000,90649
+101,Bangladesh,2005,89936
+102,Bangladesh,2006,93758
+103,Bangladesh,2010,108532
+104,Bangladesh,2016,145617
+105,Barbados,1990,72
+106,Barbados,1995,77
+107,Barbados,2000,68
+108,Barbados,2005,64
+109,Barbados,2006,65
+110,Barbados,2010,63
+111,Barbados,2016,73
+112,Belarus,1990,17671
+113,Belarus,1995,23056
+114,Belarus,2000,23155
+115,Belarus,2005,22740
+116,Belarus,2006,21690
+117,Belarus,2010,19855
+118,Belarus,2016,15892
+119,Belgium,1990,20230
+120,Belgium,1995,20397
+121,Belgium,2000,19356
+122,Belgium,2005,18221
+123,Belgium,2006,17925
+124,Belgium,2010,18211
+125,Belgium,2016,18111
+126,Belize,1990,46
+127,Belize,1995,71
+128,Belize,2000,90
+129,Belize,2005,88
+130,Belize,2006,89
+131,Belize,2010,99
+132,Belize,2016,122
+133,Benin,1990,1092
+134,Benin,1995,1267
+135,Benin,2000,1471
+136,Benin,2005,1708
+137,Benin,2006,1766
+138,Benin,2010,2086
+139,Benin,2016,2431
+140,Bermuda,1990,66
+141,Bermuda,1995,67
+142,Bermuda,2000,70
+143,Bermuda,2005,56
+144,Bermuda,2006,56
+145,Bermuda,2010,51
+146,Bermuda,2016,48
+147,Bhutan,1990,121
+148,Bhutan,1995,103
+149,Bhutan,2000,93
+150,Bhutan,2005,103
+151,Bhutan,2006,103
+152,Bhutan,2010,113
+153,Bhutan,2016,142
+154,Bolivia,1990,3038
+155,Bolivia,1995,3007
+156,Bolivia,2000,2893
+157,Bolivia,2005,3128
+158,Bolivia,2006,3157
+159,Bolivia,2010,3476
+160,Bolivia,2016,4133
+161,Bosnia and Herzegovina,1990,6764
+162,Bosnia and Herzegovina,1995,6826
+163,Bosnia and Herzegovina,2000,6614
+164,Bosnia and Herzegovina,2005,7215
+165,Bosnia and Herzegovina,2006,7309
+166,Bosnia and Herzegovina,2010,7440
+167,Bosnia and Herzegovina,2016,7853
+168,Botswana,1990,619
+169,Botswana,1995,858
+170,Botswana,2000,1281
+171,Botswana,2005,1289
+172,Botswana,2006,1268
+173,Botswana,2010,1231
+174,Botswana,2016,1308
+175,Brazil,1990,115110
+176,Brazil,1995,124631
+177,Brazil,2000,128115
+178,Brazil,2005,128398
+179,Brazil,2006,128483
+180,Brazil,2010,128433
+181,Brazil,2016,131903
+182,Brunei,1990,114
+183,Brunei,1995,127
+184,Brunei,2000,114
+185,Brunei,2005,131
+186,Brunei,2006,137
+187,Brunei,2010,156
+188,Brunei,2016,213
+189,Bulgaria,1990,18242
+190,Bulgaria,1995,19170
+191,Bulgaria,2000,18051
+192,Bulgaria,2005,17813
+193,Bulgaria,2006,17715
+194,Bulgaria,2010,16199
+195,Bulgaria,2016,14910
+196,Burkina Faso,1990,3015
+197,Burkina Faso,1995,3280
+198,Burkina Faso,2000,3785
+199,Burkina Faso,2005,4090
+200,Burkina Faso,2006,4128
+201,Burkina Faso,2010,3715
+202,Burkina Faso,2016,3588
+203,Burundi,1990,2159
+204,Burundi,1995,2249
+205,Burundi,2000,1899
+206,Burundi,2005,1683
+207,Burundi,2006,1670
+208,Burundi,2010,1730
+209,Burundi,2016,2051
+210,Cambodia,1990,7623
+211,Cambodia,1995,9120
+212,Cambodia,2000,10402
+213,Cambodia,2005,11517
+214,Cambodia,2006,11453
+215,Cambodia,2010,11913
+216,Cambodia,2016,13201
+217,Cameroon,1990,3327
+218,Cameroon,1995,3890
+219,Cameroon,2000,4916
+220,Cameroon,2005,5446
+221,Cameroon,2006,5525
+222,Cameroon,2010,5900
+223,Cameroon,2016,6681
+224,Canada,1990,40579
+225,Canada,1995,42562
+226,Canada,2000,42655
+227,Canada,2005,43230
+228,Canada,2006,43267
+229,Canada,2010,42588
+230,Canada,2016,45947
+231,Cape Verde,1990,136
+232,Cape Verde,1995,150
+233,Cape Verde,2000,157
+234,Cape Verde,2005,186
+235,Cape Verde,2006,190
+236,Cape Verde,2010,204
+237,Cape Verde,2016,201
+238,Caribbean,1990,26340
+239,Caribbean,1995,28469
+240,Caribbean,2000,29594
+241,Caribbean,2005,30609
+242,Caribbean,2006,30828
+243,Caribbean,2010,31703
+244,Caribbean,2016,33828
+245,Central African Republic,1990,1484
+246,Central African Republic,1995,1737
+247,Central African Republic,2000,1956
+248,Central African Republic,2005,2076
+249,Central African Republic,2006,2112
+250,Central African Republic,2010,2269
+251,Central African Republic,2016,2649
+252,Central Asia,1990,60281
+253,Central Asia,1995,72127
+254,Central Asia,2000,68376
+255,Central Asia,2005,72307
+256,Central Asia,2006,72051
+257,Central Asia,2010,66990
+258,Central Asia,2016,64419
+259,Central Europe,1990,236352
+260,Central Europe,1995,240781
+261,Central Europe,2000,229657
+262,Central Europe,2005,226755
+263,Central Europe,2006,226218
+264,Central Europe,2010,223553
+265,Central Europe,2016,206558
+266,Central Sub-Saharan Africa,1990,14930
+267,Central Sub-Saharan Africa,1995,17302
+268,Central Sub-Saharan Africa,2000,19021
+269,Central Sub-Saharan Africa,2005,20010
+270,Central Sub-Saharan Africa,2006,20445
+271,Central Sub-Saharan Africa,2010,23288
+272,Central Sub-Saharan Africa,2016,28206
+273,Chad,1990,1432
+274,Chad,1995,1650
+275,Chad,2000,2151
+276,Chad,2005,2338
+277,Chad,2006,2368
+278,Chad,2010,2702
+279,Chad,2016,3022
+280,Chile,1990,9203
+281,Chile,1995,9115
+282,Chile,2000,8663
+283,Chile,2005,9231
+284,Chile,2006,9190
+285,Chile,2010,10008
+286,Chile,2016,10828
+287,China,1990,1402682
+288,China,1995,1593362
+289,China,2000,1766872
+290,China,2005,1826367
+291,China,2006,1762405
+292,China,2010,1784484
+293,China,2016,1759072
+294,Colombia,1990,14223
+295,Colombia,1995,15766
+296,Colombia,2000,16773
+297,Colombia,2005,18324
+298,Colombia,2006,19096
+299,Colombia,2010,19326
+300,Colombia,2016,18475
+301,Comoros,1990,138
+302,Comoros,1995,153
+303,Comoros,2000,152
+304,Comoros,2005,147
+305,Comoros,2006,150
+306,Comoros,2010,152
+307,Comoros,2016,154
+308,Congo,1990,1165
+309,Congo,1995,1286
+310,Congo,2000,1202
+311,Congo,2005,1000
+312,Congo,2006,1000
+313,Congo,2010,1046
+314,Congo,2016,1246
+315,Costa Rica,1990,742
+316,Costa Rica,1995,860
+317,Costa Rica,2000,1023
+318,Costa Rica,2005,978
+319,Costa Rica,2006,935
+320,Costa Rica,2010,899
+321,Costa Rica,2016,1015
+322,Cote d'Ivoire,1990,3446
+323,Cote d'Ivoire,1995,4755
+324,Cote d'Ivoire,2000,5154
+325,Cote d'Ivoire,2005,5147
+326,Cote d'Ivoire,2006,5228
+327,Cote d'Ivoire,2010,5531
+328,Cote d'Ivoire,2016,6606
+329,Croatia,1990,11028
+330,Croatia,1995,10516
+331,Croatia,2000,9831
+332,Croatia,2005,9129
+333,Croatia,2006,9057
+334,Croatia,2010,8812
+335,Croatia,2016,8515
+336,Cuba,1990,13686
+337,Cuba,1995,14386
+338,Cuba,2000,14985
+339,Cuba,2005,16113
+340,Cuba,2006,16285
+341,Cuba,2010,16816
+342,Cuba,2016,18044
+343,Cyprus,1990,661
+344,Cyprus,1995,701
+345,Cyprus,2000,692
+346,Cyprus,2005,767
+347,Cyprus,2006,750
+348,Cyprus,2010,820
+349,Cyprus,2016,836
+350,Czech Republic,1990,23843
+351,Czech Republic,1995,21026
+352,Czech Republic,2000,19413
+353,Czech Republic,2005,18223
+354,Czech Republic,2006,17851
+355,Czech Republic,2010,17637
+356,Czech Republic,2016,15938
+357,Democratic Republic of Congo,1990,8520
+358,Democratic Republic of Congo,1995,10111
+359,Democratic Republic of Congo,2000,11692
+360,Democratic Republic of Congo,2005,12548
+361,Democratic Republic of Congo,2006,12867
+362,Democratic Republic of Congo,2010,15147
+363,Democratic Republic of Congo,2016,18509
+364,Denmark,1990,14594
+365,Denmark,1995,14939
+366,Denmark,2000,13990
+367,Denmark,2005,13235
+368,Denmark,2006,13025
+369,Denmark,2010,12199
+370,Denmark,2016,11167
+371,Djibouti,1990,190
+372,Djibouti,1995,223
+373,Djibouti,2000,255
+374,Djibouti,2005,296
+375,Djibouti,2006,308
+376,Djibouti,2010,384
+377,Djibouti,2016,410
+378,Dominica,1990,25
+379,Dominica,1995,29
+380,Dominica,2000,25
+381,Dominica,2005,26
+382,Dominica,2006,26
+383,Dominica,2010,29
+384,Dominica,2016,33
+385,Dominican Republic,1990,3158
+386,Dominican Republic,1995,3820
+387,Dominican Republic,2000,4307
+388,Dominican Republic,2005,4393
+389,Dominican Republic,2006,4431
+390,Dominican Republic,2010,4398
+391,Dominican Republic,2016,4679
+392,East Asia,1990,1450407
+393,East Asia,1995,1652183
+394,East Asia,2000,1836429
+395,East Asia,2005,1906128
+396,East Asia,2006,1843586
+397,East Asia,2010,1872483
+398,East Asia,2016,1855765
+399,Eastern Europe,1990,413332
+400,Eastern Europe,1995,563568
+401,Eastern Europe,2000,524107
+402,Eastern Europe,2005,538210
+403,Eastern Europe,2006,499565
+404,Eastern Europe,2010,437664
+405,Eastern Europe,2016,397901
+406,Eastern Sub-Saharan Africa,1990,50916
+407,Eastern Sub-Saharan Africa,1995,56075
+408,Eastern Sub-Saharan Africa,2000,60203
+409,Eastern Sub-Saharan Africa,2005,64341
+410,Eastern Sub-Saharan Africa,2006,65818
+411,Eastern Sub-Saharan Africa,2010,72486
+412,Eastern Sub-Saharan Africa,2016,81554
+413,Ecuador,1990,2199
+414,Ecuador,1995,2576
+415,Ecuador,2000,2849
+416,Ecuador,2005,3071
+417,Ecuador,2006,3030
+418,Ecuador,2010,2965
+419,Ecuador,2016,3016
+420,Egypt,1990,28038
+421,Egypt,1995,30188
+422,Egypt,2000,31657
+423,Egypt,2005,36956
+424,Egypt,2006,38498
+425,Egypt,2010,44323
+426,Egypt,2016,50243
+427,El Salvador,1990,1068
+428,El Salvador,1995,1066
+429,El Salvador,2000,1057
+430,El Salvador,2005,1140
+431,El Salvador,2006,1142
+432,El Salvador,2010,1170
+433,El Salvador,2016,1305
+434,England,1990,118190
+435,England,1995,107982
+436,England,2000,98070
+437,England,2005,91843
+438,England,2006,89827
+439,England,2010,85793
+440,England,2016,89836
+441,Equatorial Guinea,1990,115
+442,Equatorial Guinea,1995,115
+443,Equatorial Guinea,2000,114
+444,Equatorial Guinea,2005,100
+445,Equatorial Guinea,2006,105
+446,Equatorial Guinea,2010,112
+447,Equatorial Guinea,2016,130
+448,Eritrea,1990,737
+449,Eritrea,1995,530
+450,Eritrea,2000,524
+451,Eritrea,2005,603
+452,Eritrea,2006,612
+453,Eritrea,2010,640
+454,Eritrea,2016,658
+455,Estonia,1990,2994
+456,Estonia,1995,3410
+457,Estonia,2000,2792
+458,Estonia,2005,2548
+459,Estonia,2006,2555
+460,Estonia,2010,2022
+461,Estonia,2016,1867
+462,Ethiopia,1990,15822
+463,Ethiopia,1995,14921
+464,Ethiopia,2000,12767
+465,Ethiopia,2005,11841
+466,Ethiopia,2006,11990
+467,Ethiopia,2010,12876
+468,Ethiopia,2016,14826
+469,Fiji,1990,517
+470,Fiji,1995,574
+471,Fiji,2000,608
+472,Fiji,2005,628
+473,Fiji,2006,636
+474,Fiji,2010,643
+475,Fiji,2016,695
+476,Finland,1990,6732
+477,Finland,1995,6027
+478,Finland,2000,5714
+479,Finland,2005,5551
+480,Finland,2006,5573
+481,Finland,2010,5474
+482,Finland,2016,4954
+483,France,1990,70096
+484,France,1995,70861
+485,France,2000,71564
+486,France,2005,70629
+487,France,2006,70916
+488,France,2010,73594
+489,France,2016,71647
+490,Gabon,1990,557
+491,Gabon,1995,593
+492,Gabon,2000,550
+493,Gabon,2005,500
+494,Gabon,2006,489
+495,Gabon,2010,449
+496,Gabon,2016,462
+497,Gambia,1990,196
+498,Gambia,1995,223
+499,Gambia,2000,261
+500,Gambia,2005,294
+501,Gambia,2006,302
+502,Gambia,2010,315
+503,Gambia,2016,349
+504,Georgia,1990,6805
+505,Georgia,1995,5784
+506,Georgia,2000,5686
+507,Georgia,2005,6600
+508,Georgia,2006,6524
+509,Georgia,2010,6754
+510,Georgia,2016,6132
+511,Germany,1990,140818
+512,Germany,1995,130416
+513,Germany,2000,120019
+514,Germany,2005,117389
+515,Germany,2006,117259
+516,Germany,2010,118839
+517,Germany,2016,120655
+518,Ghana,1990,2318
+519,Ghana,1995,2652
+520,Ghana,2000,3514
+521,Ghana,2005,4165
+522,Ghana,2006,4248
+523,Ghana,2010,4344
+524,Ghana,2016,4321
+525,Greece,1990,17025
+526,Greece,1995,18118
+527,Greece,2000,18794
+528,Greece,2005,19345
+529,Greece,2006,19344
+530,Greece,2010,20163
+531,Greece,2016,21146
+532,Greenland,1990,128
+533,Greenland,1995,125
+534,Greenland,2000,134
+535,Greenland,2005,138
+536,Greenland,2006,133
+537,Greenland,2010,131
+538,Greenland,2016,131
+539,Grenada,1990,44
+540,Grenada,1995,43
+541,Grenada,2000,44
+542,Grenada,2005,49
+543,Grenada,2006,49
+544,Grenada,2010,48
+545,Grenada,2016,54
+546,Guam,1990,109
+547,Guam,1995,125
+548,Guam,2000,147
+549,Guam,2005,178
+550,Guam,2006,187
+551,Guam,2010,224
+552,Guam,2016,266
+553,Guatemala,1990,1398
+554,Guatemala,1995,1650
+555,Guatemala,2000,1846
+556,Guatemala,2005,1870
+557,Guatemala,2006,1811
+558,Guatemala,2010,1724
+559,Guatemala,2016,1952
+560,Guinea,1990,1439
+561,Guinea,1995,2084
+562,Guinea,2000,2539
+563,Guinea,2005,2700
+564,Guinea,2006,2797
+565,Guinea,2010,3257
+566,Guinea,2016,3781
+567,Guinea-Bissau,1990,504
+568,Guinea-Bissau,1995,525
+569,Guinea-Bissau,2000,562
+570,Guinea-Bissau,2005,624
+571,Guinea-Bissau,2006,636
+572,Guinea-Bissau,2010,708
+573,Guinea-Bissau,2016,805
+574,Guyana,1990,371
+575,Guyana,1995,371
+576,Guyana,2000,343
+577,Guyana,2005,385
+578,Guyana,2006,386
+579,Guyana,2010,420
+580,Guyana,2016,435
+581,Haiti,1990,4657
+582,Haiti,1995,4746
+583,Haiti,2000,4594
+584,Haiti,2005,4524
+585,Haiti,2006,4489
+586,Haiti,2010,4661
+587,Haiti,2016,4828
+588,High SDI,1990,1407300
+589,High SDI,1995,1410094
+590,High SDI,2000,1392884
+591,High SDI,2005,1376398
+592,High SDI,2006,1368601
+593,High SDI,2010,1357396
+594,High SDI,2016,1407671
+595,High-income,1990,1364118
+596,High-income,1995,1370265
+597,High-income,2000,1364909
+598,High-income,2005,1352975
+599,High-income,2006,1343852
+600,High-income,2010,1336309
+601,High-income,2016,1393492
+602,High-middle SDI,1990,1138146
+603,High-middle SDI,1995,1370281
+604,High-middle SDI,2000,1373490
+605,High-middle SDI,2005,1392540
+606,High-middle SDI,2006,1337164
+607,High-middle SDI,2010,1271783
+608,High-middle SDI,2016,1229953
+609,Honduras,1990,1276
+610,Honduras,1995,1486
+611,Honduras,2000,1646
+612,Honduras,2005,1865
+613,Honduras,2006,1881
+614,Honduras,2010,1951
+615,Honduras,2016,2156
+616,Hungary,1990,27654
+617,Hungary,1995,27779
+618,Hungary,2000,25925
+619,Hungary,2005,26249
+620,Hungary,2006,26385
+621,Hungary,2010,26083
+622,Hungary,2016,24702
+623,Iceland,1990,339
+624,Iceland,1995,344
+625,Iceland,2000,327
+626,Iceland,2005,319
+627,Iceland,2006,321
+628,Iceland,2010,323
+629,Iceland,2016,356
+630,India,1990,472597
+631,India,1995,516654
+632,India,2000,570151
+633,India,2005,622382
+634,India,2006,634592
+635,India,2010,700842
+636,India,2016,719991
+637,Indonesia,1990,106178
+638,Indonesia,1995,118067
+639,Indonesia,2000,131298
+640,Indonesia,2005,155508
+641,Indonesia,2006,160281
+642,Indonesia,2010,176129
+643,Indonesia,2016,193876
+644,Iran,1990,16888
+645,Iran,1995,20463
+646,Iran,2000,24363
+647,Iran,2005,29174
+648,Iran,2006,29730
+649,Iran,2010,31091
+650,Iran,2016,33014
+651,Iraq,1990,10801
+652,Iraq,1995,12551
+653,Iraq,2000,14498
+654,Iraq,2005,16254
+655,Iraq,2006,16540
+656,Iraq,2010,17211
+657,Iraq,2016,18740
+658,Ireland,1990,7312
+659,Ireland,1995,7142
+660,Ireland,2000,6763
+661,Ireland,2005,5753
+662,Ireland,2006,5626
+663,Ireland,2010,5321
+664,Ireland,2016,5401
+665,Israel,1990,4469
+666,Israel,1995,4861
+667,Israel,2000,4674
+668,Israel,2005,4739
+669,Israel,2006,4764
+670,Israel,2010,4660
+671,Israel,2016,5127
+672,Italy,1990,94314
+673,Italy,1995,92707
+674,Italy,2000,89051
+675,Italy,2005,84044
+676,Italy,2006,85387
+677,Italy,2010,87578
+678,Italy,2016,89501
+679,Jamaica,1990,964
+680,Jamaica,1995,1161
+681,Jamaica,2000,1412
+682,Jamaica,2005,1343
+683,Jamaica,2006,1409
+684,Jamaica,2010,1566
+685,Jamaica,2016,1807
+686,Japan,1990,125072
+687,Japan,1995,133154
+688,Japan,2000,137167
+689,Japan,2005,142600
+690,Japan,2006,143019
+691,Japan,2010,146848
+692,Japan,2016,147927
+693,Jordan,1990,1284
+694,Jordan,1995,1576
+695,Jordan,2000,1742
+696,Jordan,2005,2104
+697,Jordan,2006,2135
+698,Jordan,2010,2316
+699,Jordan,2016,2764
+700,Kazakhstan,1990,23415
+701,Kazakhstan,1995,30045
+702,Kazakhstan,2000,26473
+703,Kazakhstan,2005,26546
+704,Kazakhstan,2006,26233
+705,Kazakhstan,2010,21784
+706,Kazakhstan,2016,19461
+707,Kenya,1990,2800
+708,Kenya,1995,3624
+709,Kenya,2000,4478
+710,Kenya,2005,5116
+711,Kenya,2006,5168
+712,Kenya,2010,5553
+713,Kenya,2016,6250
+714,Kiribati,1990,96
+715,Kiribati,1995,106
+716,Kiribati,2000,123
+717,Kiribati,2005,141
+718,Kiribati,2006,147
+719,Kiribati,2010,162
+720,Kiribati,2016,179
+721,Kuwait,1990,417
+722,Kuwait,1995,399
+723,Kuwait,2000,455
+724,Kuwait,2005,540
+725,Kuwait,2006,567
+726,Kuwait,2010,588
+727,Kuwait,2016,727
+728,Kyrgyzstan,1990,4027
+729,Kyrgyzstan,1995,5069
+730,Kyrgyzstan,2000,4167
+731,Kyrgyzstan,2005,4362
+732,Kyrgyzstan,2006,4499
+733,Kyrgyzstan,2010,4130
+734,Kyrgyzstan,2016,3915
+735,Laos,1990,4967
+736,Laos,1995,5347
+737,Laos,2000,5646
+738,Laos,2005,5888
+739,Laos,2006,5943
+740,Laos,2010,6063
+741,Laos,2016,6225
+742,Latin America and Caribbean,1990,209858
+743,Latin America and Caribbean,1995,230718
+744,Latin America and Caribbean,2000,237817
+745,Latin America and Caribbean,2005,244170
+746,Latin America and Caribbean,2006,244848
+747,Latin America and Caribbean,2010,250658
+748,Latin America and Caribbean,2016,263457
+749,Latvia,1990,5002
+750,Latvia,1995,6147
+751,Latvia,2000,4701
+752,Latvia,2005,4998
+753,Latvia,2006,5130
+754,Latvia,2010,4095
+755,Latvia,2016,3613
+756,Lebanon,1990,2987
+757,Lebanon,1995,2471
+758,Lebanon,2000,2293
+759,Lebanon,2005,2772
+760,Lebanon,2006,2853
+761,Lebanon,2010,3119
+762,Lebanon,2016,4469
+763,Lesotho,1990,992
+764,Lesotho,1995,1201
+765,Lesotho,2000,1615
+766,Lesotho,2005,2043
+767,Lesotho,2006,2087
+768,Lesotho,2010,2098
+769,Lesotho,2016,2115
+770,Liberia,1990,388
+771,Liberia,1995,367
+772,Liberia,2000,518
+773,Liberia,2005,553
+774,Liberia,2006,583
+775,Liberia,2010,725
+776,Liberia,2016,820
+777,Libya,1990,1331
+778,Libya,1995,1507
+779,Libya,2000,1819
+780,Libya,2005,2120
+781,Libya,2006,2180
+782,Libya,2010,2441
+783,Libya,2016,3130
+784,Lithuania,1990,6105
+785,Lithuania,1995,7059
+786,Lithuania,2000,5429
+787,Lithuania,2005,6166
+788,Lithuania,2006,6270
+789,Lithuania,2010,5369
+790,Lithuania,2016,4646
+791,Low SDI,1990,122592
+792,Low SDI,1995,140297
+793,Low SDI,2000,157349
+794,Low SDI,2005,174808
+795,Low SDI,2006,178830
+796,Low SDI,2010,197173
+797,Low SDI,2016,217817
+798,Low-middle SDI,1990,846725
+799,Low-middle SDI,1995,963642
+800,Low-middle SDI,2000,1076410
+801,Low-middle SDI,2005,1161117
+802,Low-middle SDI,2006,1175021
+803,Low-middle SDI,2010,1253934
+804,Low-middle SDI,2016,1354726
+805,Luxembourg,1990,699
+806,Luxembourg,1995,666
+807,Luxembourg,2000,605
+808,Luxembourg,2005,576
+809,Luxembourg,2006,566
+810,Luxembourg,2010,564
+811,Luxembourg,2016,598
+812,Macedonia,1990,2783
+813,Macedonia,1995,2938
+814,Macedonia,2000,3282
+815,Macedonia,2005,3539
+816,Macedonia,2006,3572
+817,Macedonia,2010,3681
+818,Macedonia,2016,3602
+819,Madagascar,1990,4603
+820,Madagascar,1995,4994
+821,Madagascar,2000,5296
+822,Madagascar,2005,5615
+823,Madagascar,2006,5638
+824,Madagascar,2010,6224
+825,Madagascar,2016,7159
+826,Malawi,1990,2416
+827,Malawi,1995,3340
+828,Malawi,2000,4282
+829,Malawi,2005,4506
+830,Malawi,2006,4612
+831,Malawi,2010,4942
+832,Malawi,2016,5179
+833,Malaysia,1990,12644
+834,Malaysia,1995,15008
+835,Malaysia,2000,16967
+836,Malaysia,2005,19133
+837,Malaysia,2006,19499
+838,Malaysia,2010,21080
+839,Malaysia,2016,24185
+840,Maldives,1990,129
+841,Maldives,1995,140
+842,Maldives,2000,137
+843,Maldives,2005,126
+844,Maldives,2006,124
+845,Maldives,2010,130
+846,Maldives,2016,144
+847,Mali,1990,2115
+848,Mali,1995,2017
+849,Mali,2000,1823
+850,Mali,2005,1807
+851,Mali,2006,1812
+852,Mali,2010,1898
+853,Mali,2016,1911
+854,Malta,1990,409
+855,Malta,1995,409
+856,Malta,2000,435
+857,Malta,2005,387
+858,Malta,2006,393
+859,Malta,2010,399
+860,Malta,2016,400
+861,Marshall Islands,1990,25
+862,Marshall Islands,1995,28
+863,Marshall Islands,2000,31
+864,Marshall Islands,2005,37
+865,Marshall Islands,2006,39
+866,Marshall Islands,2010,42
+867,Marshall Islands,2016,47
+868,Mauritania,1990,539
+869,Mauritania,1995,558
+870,Mauritania,2000,511
+871,Mauritania,2005,495
+872,Mauritania,2006,492
+873,Mauritania,2010,532
+874,Mauritania,2016,658
+875,Mauritius,1990,1054
+876,Mauritius,1995,1100
+877,Mauritius,2000,1101
+878,Mauritius,2005,963
+879,Mauritius,2006,932
+880,Mauritius,2010,876
+881,Mauritius,2016,938
+882,Mexico,1990,27938
+883,Mexico,1995,31974
+884,Mexico,2000,32387
+885,Mexico,2005,33273
+886,Mexico,2006,32156
+887,Mexico,2010,34220
+888,Mexico,2016,38786
+889,Micronesia (country),1990,100
+890,Micronesia (country),1995,111
+891,Micronesia (country),2000,106
+892,Micronesia (country),2005,107
+893,Micronesia (country),2006,108
+894,Micronesia (country),2010,114
+895,Micronesia (country),2016,119
+896,Middle SDI,1990,1555201
+897,Middle SDI,1995,1754142
+898,Middle SDI,2000,1944299
+899,Middle SDI,2005,2057761
+900,Middle SDI,2006,2022338
+901,Middle SDI,2010,2091383
+902,Middle SDI,2016,2110931
+903,Moldova,1990,6424
+904,Moldova,1995,7578
+905,Moldova,2000,5563
+906,Moldova,2005,6014
+907,Moldova,2006,5809
+908,Moldova,2010,5797
+909,Moldova,2016,4936
+910,Mongolia,1990,2139
+911,Mongolia,1995,2669
+912,Mongolia,2000,2721
+913,Mongolia,2005,3205
+914,Mongolia,2006,3215
+915,Mongolia,2010,3283
+916,Mongolia,2016,3589
+917,Montenegro,1990,889
+918,Montenegro,1995,1079
+919,Montenegro,2000,1218
+920,Montenegro,2005,1291
+921,Montenegro,2006,1285
+922,Montenegro,2010,1241
+923,Montenegro,2016,1296
+924,Morocco,1990,9381
+925,Morocco,1995,9872
+926,Morocco,2000,10101
+927,Morocco,2005,11007
+928,Morocco,2006,11148
+929,Morocco,2010,11979
+930,Morocco,2016,13533
+931,Mozambique,1990,4200
+932,Mozambique,1995,4735
+933,Mozambique,2000,5513
+934,Mozambique,2005,6111
+935,Mozambique,2006,6381
+936,Mozambique,2010,7772
+937,Mozambique,2016,8448
+938,Myanmar,1990,58440
+939,Myanmar,1995,62072
+940,Myanmar,2000,65037
+941,Myanmar,2005,65412
+942,Myanmar,2006,64519
+943,Myanmar,2010,61295
+944,Myanmar,2016,61937
+945,Namibia,1990,782
+946,Namibia,1995,916
+947,Namibia,2000,1219
+948,Namibia,2005,1161
+949,Namibia,2006,1143
+950,Namibia,2010,991
+951,Namibia,2016,918
+952,Nepal,1990,16335
+953,Nepal,1995,18248
+954,Nepal,2000,20558
+955,Nepal,2005,24548
+956,Nepal,2006,24950
+957,Nepal,2010,26035
+958,Nepal,2016,24917
+959,Netherlands,1990,27524
+960,Netherlands,1995,28879
+961,Netherlands,2000,29325
+962,Netherlands,2005,28710
+963,Netherlands,2006,28502
+964,Netherlands,2010,28919
+965,Netherlands,2016,29196
+966,New Zealand,1990,4869
+967,New Zealand,1995,4677
+968,New Zealand,2000,4334
+969,New Zealand,2005,4145
+970,New Zealand,2006,4182
+971,New Zealand,2010,4144
+972,New Zealand,2016,4457
+973,Nicaragua,1990,436
+974,Nicaragua,1995,558
+975,Nicaragua,2000,569
+976,Nicaragua,2005,638
+977,Nicaragua,2006,640
+978,Nicaragua,2010,705
+979,Nicaragua,2016,864
+980,Niger,1990,962
+981,Niger,1995,995
+982,Niger,2000,1157
+983,Niger,2005,1457
+984,Niger,2006,1545
+985,Niger,2010,1861
+986,Niger,2016,2421
+987,Nigeria,1990,17510
+988,Nigeria,1995,18683
+989,Nigeria,2000,18717
+990,Nigeria,2005,13008
+991,Nigeria,2006,12220
+992,Nigeria,2010,10834
+993,Nigeria,2016,11026
+994,North Africa and Middle East,1990,167379
+995,North Africa and Middle East,1995,194365
+996,North Africa and Middle East,2000,206092
+997,North Africa and Middle East,2005,223218
+998,North Africa and Middle East,2006,225927
+999,North Africa and Middle East,2010,240949
+1000,North Africa and Middle East,2016,271160
+1001,North America,1990,467382
+1002,North America,1995,485056
+1003,North America,2000,499305
+1004,North America,2005,502596
+1005,North America,2006,496593
+1006,North America,2010,483661
+1007,North America,2016,525774
+1008,North Korea,1990,29746
+1009,North Korea,1995,36969
+1010,North Korea,2000,45161
+1011,North Korea,2005,53022
+1012,North Korea,2006,54294
+1013,North Korea,2010,59773
+1014,North Korea,2016,66160
+1015,Northern Ireland,1990,3545
+1016,Northern Ireland,1995,3195
+1017,Northern Ireland,2000,2925
+1018,Northern Ireland,2005,2726
+1019,Northern Ireland,2006,2714
+1020,Northern Ireland,2010,2680
+1021,Northern Ireland,2016,2978
+1022,Northern Mariana Islands,1990,22
+1023,Northern Mariana Islands,1995,24
+1024,Northern Mariana Islands,2000,25
+1025,Northern Mariana Islands,2005,30
+1026,Northern Mariana Islands,2006,31
+1027,Northern Mariana Islands,2010,38
+1028,Northern Mariana Islands,2016,49
+1029,Norway,1990,7099
+1030,Norway,1995,7076
+1031,Norway,2000,7079
+1032,Norway,2005,6661
+1033,Norway,2006,6628
+1034,Norway,2010,6614
+1035,Norway,2016,5989
+1036,Oceania,1990,7522
+1037,Oceania,1995,8384
+1038,Oceania,2000,9318
+1039,Oceania,2005,11010
+1040,Oceania,2006,11369
+1041,Oceania,2010,12697
+1042,Oceania,2016,13862
+1043,Oman,1990,326
+1044,Oman,1995,406
+1045,Oman,2000,368
+1046,Oman,2005,337
+1047,Oman,2006,339
+1048,Oman,2010,412
+1049,Oman,2016,729
+1050,Pakistan,1990,68606
+1051,Pakistan,1995,93049
+1052,Pakistan,2000,115153
+1053,Pakistan,2005,127533
+1054,Pakistan,2006,127069
+1055,Pakistan,2010,126917
+1056,Pakistan,2016,130874
+1057,Palestine,1990,692
+1058,Palestine,1995,838
+1059,Palestine,2000,1139
+1060,Palestine,2005,1418
+1061,Palestine,2006,1458
+1062,Palestine,2010,1691
+1063,Palestine,2016,2324
+1064,Panama,1990,756
+1065,Panama,1995,863
+1066,Panama,2000,828
+1067,Panama,2005,911
+1068,Panama,2006,894
+1069,Panama,2010,815
+1070,Panama,2016,777
+1071,Papua New Guinea,1990,5865
+1072,Papua New Guinea,1995,6549
+1073,Papua New Guinea,2000,7352
+1074,Papua New Guinea,2005,8855
+1075,Papua New Guinea,2006,9168
+1076,Papua New Guinea,2010,10327
+1077,Papua New Guinea,2016,11252
+1078,Paraguay,1990,1593
+1079,Paraguay,1995,1931
+1080,Paraguay,2000,2287
+1081,Paraguay,2005,2747
+1082,Paraguay,2006,2838
+1083,Paraguay,2010,3152
+1084,Paraguay,2016,3435
+1085,Peru,1990,4854
+1086,Peru,1995,6169
+1087,Peru,2000,5382
+1088,Peru,2005,5509
+1089,Peru,2006,5541
+1090,Peru,2010,6473
+1091,Peru,2016,6542
+1092,Philippines,1990,43854
+1093,Philippines,1995,54881
+1094,Philippines,2000,69542
+1095,Philippines,2005,84046
+1096,Philippines,2006,86614
+1097,Philippines,2010,97786
+1098,Philippines,2016,107183
+1099,Poland,1990,81867
+1100,Poland,1995,79313
+1101,Poland,2000,74858
+1102,Poland,2005,72951
+1103,Poland,2006,73661
+1104,Poland,2010,72483
+1105,Poland,2016,66409
+1106,Portugal,1990,10766
+1107,Portugal,1995,11199
+1108,Portugal,2000,11472
+1109,Portugal,2005,12020
+1110,Portugal,2006,11923
+1111,Portugal,2010,11746
+1112,Portugal,2016,10870
+1113,Puerto Rico,1990,2076
+1114,Puerto Rico,1995,2462
+1115,Puerto Rico,2000,2371
+1116,Puerto Rico,2005,2281
+1117,Puerto Rico,2006,2255
+1118,Puerto Rico,2010,2189
+1119,Puerto Rico,2016,2150
+1120,Qatar,1990,103
+1121,Qatar,1995,129
+1122,Qatar,2000,143
+1123,Qatar,2005,151
+1124,Qatar,2006,148
+1125,Qatar,2010,184
+1126,Qatar,2016,244
+1127,Romania,1990,34176
+1128,Romania,1995,40451
+1129,Romania,2000,37203
+1130,Romania,2005,36947
+1131,Romania,2006,36408
+1132,Romania,2010,37737
+1133,Romania,2016,32838
+1134,Russia,1990,262327
+1135,Russia,1995,372001
+1136,Russia,2000,359691
+1137,Russia,2005,372102
+1138,Russia,2006,341024
+1139,Russia,2010,304361
+1140,Russia,2016,282072
+1141,Rwanda,1990,1688
+1142,Rwanda,1995,1889
+1143,Rwanda,2000,1971
+1144,Rwanda,2005,1295
+1145,Rwanda,2006,1304
+1146,Rwanda,2010,1354
+1147,Rwanda,2016,1661
+1148,Saint Lucia,1990,55
+1149,Saint Lucia,1995,51
+1150,Saint Lucia,2000,49
+1151,Saint Lucia,2005,57
+1152,Saint Lucia,2006,58
+1153,Saint Lucia,2010,60
+1154,Saint Lucia,2016,71
+1155,Saint Vincent and the Grenadines,1990,37
+1156,Saint Vincent and the Grenadines,1995,41
+1157,Saint Vincent and the Grenadines,2000,44
+1158,Saint Vincent and the Grenadines,2005,43
+1159,Saint Vincent and the Grenadines,2006,43
+1160,Saint Vincent and the Grenadines,2010,44
+1161,Saint Vincent and the Grenadines,2016,53
+1162,Samoa,1990,120
+1163,Samoa,1995,129
+1164,Samoa,2000,128
+1165,Samoa,2005,127
+1166,Samoa,2006,127
+1167,Samoa,2010,131
+1168,Samoa,2016,138
+1169,Sao Tome and Principe,1990,40
+1170,Sao Tome and Principe,1995,43
+1171,Sao Tome and Principe,2000,51
+1172,Sao Tome and Principe,2005,54
+1173,Sao Tome and Principe,2006,54
+1174,Sao Tome and Principe,2010,52
+1175,Sao Tome and Principe,2016,55
+1176,Saudi Arabia,1990,1568
+1177,Saudi Arabia,1995,2391
+1178,Saudi Arabia,2000,3228
+1179,Saudi Arabia,2005,3878
+1180,Saudi Arabia,2006,3971
+1181,Saudi Arabia,2010,4456
+1182,Saudi Arabia,2016,5736
+1183,Scotland,1990,16745
+1184,Scotland,1995,15412
+1185,Scotland,2000,13713
+1186,Scotland,2005,12872
+1187,Scotland,2006,12583
+1188,Scotland,2010,11968
+1189,Scotland,2016,12382
+1190,Senegal,1990,1973
+1191,Senegal,1995,2011
+1192,Senegal,2000,2067
+1193,Senegal,2005,2335
+1194,Senegal,2006,2413
+1195,Senegal,2010,2646
+1196,Senegal,2016,3218
+1197,Serbia,1990,14242
+1198,Serbia,1995,17857
+1199,Serbia,2000,19627
+1200,Serbia,2005,19921
+1201,Serbia,2006,19572
+1202,Serbia,2010,19134
+1203,Serbia,2016,17431
+1204,Seychelles,1990,67
+1205,Seychelles,1995,76
+1206,Seychelles,2000,74
+1207,Seychelles,2005,73
+1208,Seychelles,2006,71
+1209,Seychelles,2010,71
+1210,Seychelles,2016,75
+1211,Sierra Leone,1990,1815
+1212,Sierra Leone,1995,1596
+1213,Sierra Leone,2000,1647
+1214,Sierra Leone,2005,2082
+1215,Sierra Leone,2006,2157
+1216,Sierra Leone,2010,2380
+1217,Sierra Leone,2016,2565
+1218,Singapore,1990,2295
+1219,Singapore,1995,2217
+1220,Singapore,2000,2029
+1221,Singapore,2005,1978
+1222,Singapore,2006,2023
+1223,Singapore,2010,1855
+1224,Singapore,2016,1949
+1225,Slovakia,1990,9495
+1226,Slovakia,1995,8259
+1227,Slovakia,2000,7717
+1228,Slovakia,2005,7356
+1229,Slovakia,2006,7333
+1230,Slovakia,2010,7159
+1231,Slovakia,2016,7036
+1232,Slovenia,1990,3078
+1233,Slovenia,1995,3091
+1234,Slovenia,2000,2992
+1235,Slovenia,2005,2812
+1236,Slovenia,2006,2754
+1237,Slovenia,2010,2563
+1238,Slovenia,2016,2391
+1239,Solomon Islands,1990,361
+1240,Solomon Islands,1995,392
+1241,Solomon Islands,2000,439
+1242,Solomon Islands,2005,535
+1243,Solomon Islands,2006,558
+1244,Solomon Islands,2010,639
+1245,Solomon Islands,2016,697
+1246,Somalia,1990,2461
+1247,Somalia,1995,2410
+1248,Somalia,2000,2587
+1249,Somalia,2005,2693
+1250,Somalia,2006,2701
+1251,Somalia,2010,2703
+1252,Somalia,2016,2844
+1253,South Africa,1990,30048
+1254,South Africa,1995,33484
+1255,South Africa,2000,46913
+1256,South Africa,2005,43188
+1257,South Africa,2006,43112
+1258,South Africa,2010,40578
+1259,South Africa,2016,36658
+1260,South Asia,1990,640314
+1261,South Asia,1995,714868
+1262,South Asia,2000,796604
+1263,South Asia,2005,864501
+1264,South Asia,2006,880472
+1265,South Asia,2010,962439
+1266,South Asia,2016,1021541
+1267,South Korea,1990,37649
+1268,South Korea,1995,39064
+1269,South Korea,2000,42194
+1270,South Korea,2005,40284
+1271,South Korea,2006,39366
+1272,South Korea,2010,38195
+1273,South Korea,2016,43601
+1274,South Sudan,1990,1107
+1275,South Sudan,1995,1197
+1276,South Sudan,2000,1477
+1277,South Sudan,2005,1679
+1278,South Sudan,2006,1768
+1279,South Sudan,2010,1998
+1280,South Sudan,2016,2499
+1281,Southeast Asia,1990,374139
+1282,Southeast Asia,1995,428948
+1283,Southeast Asia,2000,481313
+1284,Southeast Asia,2005,532172
+1285,Southeast Asia,2006,541008
+1286,Southeast Asia,2010,566648
+1287,Southeast Asia,2016,617631
+1288,Southern Sub-Saharan Africa,1990,37120
+1289,Southern Sub-Saharan Africa,1995,40908
+1290,Southern Sub-Saharan Africa,2000,58182
+1291,Southern Sub-Saharan Africa,2005,56772
+1292,Southern Sub-Saharan Africa,2006,56735
+1293,Southern Sub-Saharan Africa,2010,53989
+1294,Southern Sub-Saharan Africa,2016,49011
+1295,Spain,1990,51127
+1296,Spain,1995,52786
+1297,Spain,2000,54572
+1298,Spain,2005,56334
+1299,Spain,2006,55686
+1300,Spain,2010,55003
+1301,Spain,2016,53552
+1302,Sri Lanka,1990,7958
+1303,Sri Lanka,1995,8646
+1304,Sri Lanka,2000,9722
+1305,Sri Lanka,2005,10048
+1306,Sri Lanka,2006,10186
+1307,Sri Lanka,2010,10027
+1308,Sri Lanka,2016,9747
+1309,Sub-Saharan Africa,1990,146263
+1310,Sub-Saharan Africa,1995,162250
+1311,Sub-Saharan Africa,2000,189812
+1312,Sub-Saharan Africa,2005,191178
+1313,Sub-Saharan Africa,2006,193056
+1314,Sub-Saharan Africa,2010,201278
+1315,Sub-Saharan Africa,2016,215310
+1316,Sudan,1990,7080
+1317,Sudan,1995,8692
+1318,Sudan,2000,9669
+1319,Sudan,2005,10547
+1320,Sudan,2006,10669
+1321,Sudan,2010,10805
+1322,Sudan,2016,12435
+1323,Suriname,1990,178
+1324,Suriname,1995,202
+1325,Suriname,2000,241
+1326,Suriname,2005,281
+1327,Suriname,2006,287
+1328,Suriname,2010,311
+1329,Suriname,2016,359
+1330,Swaziland,1990,408
+1331,Swaziland,1995,427
+1332,Swaziland,2000,627
+1333,Swaziland,2005,734
+1334,Swaziland,2006,731
+1335,Swaziland,2010,723
+1336,Swaziland,2016,652
+1337,Sweden,1990,11428
+1338,Sweden,1995,10529
+1339,Sweden,2000,10587
+1340,Sweden,2005,10620
+1341,Sweden,2006,10452
+1342,Sweden,2010,9958
+1343,Sweden,2016,10137
+1344,Switzerland,1990,8612
+1345,Switzerland,1995,8672
+1346,Switzerland,2000,8539
+1347,Switzerland,2005,8129
+1348,Switzerland,2006,8103
+1349,Switzerland,2010,8216
+1350,Switzerland,2016,8290
+1351,Syria,1990,5467
+1352,Syria,1995,6318
+1353,Syria,2000,7517
+1354,Syria,2005,7919
+1355,Syria,2006,7979
+1356,Syria,2010,8690
+1357,Syria,2016,8404
+1358,Taiwan,1990,17979
+1359,Taiwan,1995,21852
+1360,Taiwan,2000,24396
+1361,Taiwan,2005,26739
+1362,Taiwan,2006,26888
+1363,Taiwan,2010,28226
+1364,Taiwan,2016,30533
+1365,Tajikistan,1990,2185
+1366,Tajikistan,1995,1757
+1367,Tajikistan,2000,1348
+1368,Tajikistan,2005,1217
+1369,Tajikistan,2006,1155
+1370,Tajikistan,2010,1100
+1371,Tajikistan,2016,1076
+1372,Tanzania,1990,6117
+1373,Tanzania,1995,7298
+1374,Tanzania,2000,8300
+1375,Tanzania,2005,9569
+1376,Tanzania,2006,9849
+1377,Tanzania,2010,11290
+1378,Tanzania,2016,13196
+1379,Thailand,1990,51460
+1380,Thailand,1995,59389
+1381,Thailand,2000,66451
+1382,Thailand,2005,68120
+1383,Thailand,2006,68701
+1384,Thailand,2010,66717
+1385,Thailand,2016,75429
+1386,Timor,1990,350
+1387,Timor,1995,401
+1388,Timor,2000,372
+1389,Timor,2005,455
+1390,Timor,2006,463
+1391,Timor,2010,560
+1392,Timor,2016,646
+1393,Togo,1990,1048
+1394,Togo,1995,1217
+1395,Togo,2000,1403
+1396,Togo,2005,1566
+1397,Togo,2006,1595
+1398,Togo,2010,1825
+1399,Togo,2016,2080
+1400,Tonga,1990,99
+1401,Tonga,1995,113
+1402,Tonga,2000,116
+1403,Tonga,2005,115
+1404,Tonga,2006,114
+1405,Tonga,2010,115
+1406,Tonga,2016,115
+1407,Trinidad and Tobago,1990,744
+1408,Trinidad and Tobago,1995,759
+1409,Trinidad and Tobago,2000,758
+1410,Trinidad and Tobago,2005,692
+1411,Trinidad and Tobago,2006,689
+1412,Trinidad and Tobago,2010,718
+1413,Trinidad and Tobago,2016,811
+1414,Tunisia,1990,5692
+1415,Tunisia,1995,6703
+1416,Tunisia,2000,6676
+1417,Tunisia,2005,7342
+1418,Tunisia,2006,7549
+1419,Tunisia,2010,8234
+1420,Tunisia,2016,9855
+1421,Turkey,1990,53002
+1422,Turkey,1995,60154
+1423,Turkey,2000,57373
+1424,Turkey,2005,54017
+1425,Turkey,2006,53013
+1426,Turkey,2010,54312
+1427,Turkey,2016,58631
+1428,Turkmenistan,1990,1867
+1429,Turkmenistan,1995,2162
+1430,Turkmenistan,2000,2191
+1431,Turkmenistan,2005,2106
+1432,Turkmenistan,2006,2082
+1433,Turkmenistan,2010,2014
+1434,Turkmenistan,2016,2039
+1435,Uganda,1990,4670
+1436,Uganda,1995,5538
+1437,Uganda,2000,6279
+1438,Uganda,2005,7338
+1439,Uganda,2006,7599
+1440,Uganda,2010,7953
+1441,Uganda,2016,9132
+1442,Ukraine,1990,112808
+1443,Ukraine,1995,144317
+1444,Ukraine,2000,122777
+1445,Ukraine,2005,123642
+1446,Ukraine,2006,117087
+1447,Ukraine,2010,96165
+1448,Ukraine,2016,84875
+1449,United Arab Emirates,1990,394
+1450,United Arab Emirates,1995,514
+1451,United Arab Emirates,2000,605
+1452,United Arab Emirates,2005,792
+1453,United Arab Emirates,2006,890
+1454,United Arab Emirates,2010,1641
+1455,United Arab Emirates,2016,2600
+1456,United Kingdom,1990,146733
+1457,United Kingdom,1995,134117
+1458,United Kingdom,2000,121348
+1459,United Kingdom,2005,113506
+1460,United Kingdom,2006,111051
+1461,United Kingdom,2010,106172
+1462,United Kingdom,2016,111254
+1463,United States,1990,426674
+1464,United States,1995,442370
+1465,United States,2000,456516
+1466,United States,2005,459228
+1467,United States,2006,453193
+1468,United States,2010,440941
+1469,United States,2016,479696
+1470,United States Virgin Islands,1990,51
+1471,United States Virgin Islands,1995,62
+1472,United States Virgin Islands,2000,73
+1473,United States Virgin Islands,2005,81
+1474,United States Virgin Islands,2006,83
+1475,United States Virgin Islands,2010,89
+1476,United States Virgin Islands,2016,94
+1477,Uruguay,1990,5265
+1478,Uruguay,1995,5429
+1479,Uruguay,2000,5211
+1480,Uruguay,2005,5050
+1481,Uruguay,2006,4994
+1482,Uruguay,2010,4949
+1483,Uruguay,2016,4815
+1484,Uzbekistan,1990,9862
+1485,Uzbekistan,1995,12847
+1486,Uzbekistan,2000,14313
+1487,Uzbekistan,2005,15708
+1488,Uzbekistan,2006,15414
+1489,Uzbekistan,2010,14329
+1490,Uzbekistan,2016,14432
+1491,Vanuatu,1990,172
+1492,Vanuatu,1995,195
+1493,Vanuatu,2000,206
+1494,Vanuatu,2005,216
+1495,Vanuatu,2006,215
+1496,Vanuatu,2010,220
+1497,Vanuatu,2016,258
+1498,Venezuela,1990,8886
+1499,Venezuela,1995,9713
+1500,Venezuela,2000,10569
+1501,Venezuela,2005,11709
+1502,Venezuela,2006,12416
+1503,Venezuela,2010,13646
+1504,Venezuela,2016,15270
+1505,Vietnam,1990,79416
+1506,Vietnam,1995,94701
+1507,Vietnam,2000,104565
+1508,Vietnam,2005,110885
+1509,Vietnam,2006,112223
+1510,Vietnam,2010,114001
+1511,Vietnam,2016,124044
+1512,Wales,1990,8254
+1513,Wales,1995,7528
+1514,Wales,2000,6640
+1515,Wales,2005,6065
+1516,Wales,2006,5927
+1517,Wales,2010,5731
+1518,Wales,2016,6059
+1519,Western Europe,1990,652218
+1520,Western Europe,1995,631559
+1521,Western Europe,2000,605125
+1522,Western Europe,2005,586476
+1523,Western Europe,2006,583634
+1524,Western Europe,2010,584172
+1525,Western Europe,2016,588971
+1526,Western Sub-Saharan Africa,1990,43296
+1527,Western Sub-Saharan Africa,1995,47964
+1528,Western Sub-Saharan Africa,2000,52406
+1529,Western Sub-Saharan Africa,2005,50055
+1530,Western Sub-Saharan Africa,2006,50058
+1531,Western Sub-Saharan Africa,2010,51514
+1532,Western Sub-Saharan Africa,2016,56539
+1533,World,1990,5069964
+1534,World,1995,5638456
+1535,World,2000,5944432
+1536,World,2005,6162624
+1537,World,2006,6081954
+1538,World,2010,6171668
+1539,World,2016,6321098
+1540,Yemen,1990,6238
+1541,Yemen,1995,9212
+1542,Yemen,2000,9952
+1543,Yemen,2005,10334
+1544,Yemen,2006,10312
+1545,Yemen,2010,10045
+1546,Yemen,2016,12267
+1547,Zambia,1990,1808
+1548,Zambia,1995,2973
+1549,Zambia,2000,4425
+1550,Zambia,2005,5849
+1551,Zambia,2006,6068
+1552,Zambia,2010,6916
+1553,Zambia,2016,7087
+1554,Zimbabwe,1990,4271
+1555,Zimbabwe,1995,4022
+1556,Zimbabwe,2000,6528
+1557,Zimbabwe,2005,8358
+1558,Zimbabwe,2006,8393
+1559,Zimbabwe,2010,8369
+1560,Zimbabwe,2016,7360

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Smoking Data</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
+  <!--link rel="stylesheet" type="text/css" href="static/css/style.css"-->
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@4.13.0/build/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script >
+          
+          
+    function makebarchart(rendertoname, data) {
+        var chart = new Taucharts.Chart({
+        data: data,
+        type: 'bar',
+        x: 'Entity',
+        y: 'Dollars',
+        color: 'Dollars',
+        size: 'Dollars',
+        // color:'priority',
+        // guide: {
+        //       x: {label: "Person Weight"},
+        //       y: {label: "Bla bla Height"}
+        //   },
+        plugins: [Taucharts.api.plugins.get('legend')()]
+    });
+    chart.renderTo('#' + rendertoname);
+    }
+
+    function makehorizontalchart(rendertoname, data) {
+        var barchart = new Taucharts.Chart({
+        data: data,
+        type: 'horizontalBar',
+        y: 'Entity',
+        x: 'Dollars',
+        color: 'Dollars',
+        size: 'Dollars',
+        // color:'priority',
+        // guide: {
+        //       x: {label: "Person Weight"},
+        //       y: {label: "Bla bla Height"}
+        //   },
+        plugins: [Taucharts.api.plugins.get('legend')()]
+    });
+    barchart.renderTo('#' + rendertoname);
+    }
+
+
+    function makescatterchart(rendertoname, data) {
+        var chart = new Taucharts.Chart({
+        data: data,
+        type: 'scatterplot',
+        x: 'Entity',
+        y: 'Dollars',
+        color: 'Dollars',
+        size: 'Dollars',
+        // color:'priority',
+        // guide: {
+        //       x: {label: "Person Weight"},
+        //       y: {label: "Bla bla Height"}
+        //   },
+        plugins: [Taucharts.api.plugins.get('legend')()]
+    });
+    chart.renderTo('#' + rendertoname);
+    }
+
+
+      function fixdivs() 
+      {
+        document.getElementById('master2012').style.height = '600px';document.getElementById('master2012').style.width = '800';
+        document.getElementById('master2012b').style.height = '600px';document.getElementById('master2012b').style.width = '800';
+        document.getElementById('chart2012_top25').style.height = '600px';document.getElementById('chart2012_top25').style.width = '600px';
+        document.getElementById('chart2012_top10').style.height = '600px';document.getElementById('chart2012_top10').style.width = '600px';
+        document.getElementById('chart2012_bot25').style.height = '600px';document.getElementById('chart2012_bot25').style.width = '600px';
+        document.getElementById('chart2012_bot10').style.height = '600px';document.getElementById('chart2012_bot10').style.width = '600px';
+
+        document.getElementById('master2014').style.height = '600px';document.getElementById('master2014').style.width = '800';
+        document.getElementById('master2014b').style.height = '600px';document.getElementById('master2014b').style.width = '800';
+        document.getElementById('chart2014_top25').style.height = '600px';document.getElementById('chart2014_top25').style.width = '600px';
+        document.getElementById('chart2014_top10').style.height = '600px';document.getElementById('chart2014_top10').style.width = '600px';
+        document.getElementById('chart2014_bot25').style.height = '600px';document.getElementById('chart2014_bot25').style.width = '600px';
+        document.getElementById('chart2014_bot10').style.height = '600px';document.getElementById('chart2014_bot10').style.width = '600px';
+      }
+
+      function fixdivs12() 
+      {
+        document.getElementById('master2012').style.height = '600px';document.getElementById('master2012').style.width = '800';
+        document.getElementById('master2012b').style.height = '600px';document.getElementById('master2012b').style.width = '800';
+        document.getElementById('chart2012_top25').style.height = '600px';document.getElementById('chart2012_top25').style.width = '600px';
+        document.getElementById('chart2012_top10').style.height = '600px';document.getElementById('chart2012_top10').style.width = '600px';
+        document.getElementById('chart2012_bot25').style.height = '600px';document.getElementById('chart2012_bot25').style.width = '600px';
+        document.getElementById('chart2012_bot10').style.height = '600px';document.getElementById('chart2012_bot10').style.width = '600px';
+      }
+
+      function fixdivs14() 
+      {
+        document.getElementById('master2014').style.height = '600px';document.getElementById('master2014').style.width = '800';
+        document.getElementById('master2014b').style.height = '600px';document.getElementById('master2014b').style.width = '800px';
+        document.getElementById('chart2014_top25').style.height = '600px';document.getElementById('chart2014_top25').style.width = '600px';
+        document.getElementById('chart2014_top10').style.height = '600px';document.getElementById('chart2014_top10').style.width = '600px';
+        document.getElementById('chart2014_bot25').style.height = '600px';document.getElementById('chart2014_bot25').style.width = '600px';
+        document.getElementById('chart2014_bot10').style.height = '600px';document.getElementById('chart2014_bot10').style.width = '600px';
+      }
+
+      function showDiv(prefix,chooser) 
+      {
+              for(var i=0;i<chooser.options.length;i++) 
+              {
+                  var div = document.getElementById(prefix+chooser.options[i].value);
+                  div.style.display = 'none';
+              }
+  
+              var selectedOption = (chooser.options[chooser.selectedIndex].value);
+  
+              if(selectedOption == "0")
+              {
+                  displayDiv(prefix,"0");
+              }
+              if(selectedOption == "1")
+              {
+                  displayDiv(prefix,"1");
+                  
+
+
+                  fixdivs12();
+              }
+              if(selectedOption == "2")
+              {
+                  displayDiv(prefix,"2");
+                  
+
+
+                  fixdivs14();
+              }
+      }
+  
+      function displayDiv(prefix,suffix) 
+      {
+              var div = document.getElementById(prefix+suffix);
+              div.style.display = 'block';
+      }
+  
+  </script>
+
+</head>
+
+<body onresize="fixdivs();">
+
+<script>
+    var twelveGraphDataTop25 = {{ dataone.chart_data_2012_top25 | safe }};
+    var twelveGraphDataTop10 = {{ datatwo.chart_data_2012_top10 | safe }};
+    var twelveGraphDataBot25 = {{ datathree.chart_data_2012_bot25 | safe }};
+    var twelveGraphDataBot10 = {{ datafour.chart_data_2012_bot10 | safe }};
+    var barmaster12 = {{ datatwelve.chart_data2012 | safe }};
+
+    var fourteenGraphDataTop25 = {{ datafive.chart_data_2014_top25 | safe }};
+    var fourteenGraphDataTop10 = {{ datasix.chart_data_2014_top10 | safe }};
+    var fourteenGraphDataBot25 = {{ dataseven.chart_data_2014_bot25 | safe }};
+    var fourteenGraphDataBot10 = {{ dataeight.chart_data_2014_bot10 | safe }};
+    var barmaster14 = {{ datafourteen.chart_data2014 | safe }};
+
+
+</script>
+
+<p style="color:blue; text-align:center; margin-bottom:30px; border-bottom:1px solid white; padding-bottom:10px;">
+        Smoking Information as of 
+        <script>
+            //https://stackoverflow.com/questions/10211145/getting-current-date-and-time-in-javascript
+            //#495
+
+            //https://www.w3schools.com/js/js_dates.asp
+            //https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript
+
+
+            //document.write(Date.now());
+            var currentdate = new Date(); 
+            var datetime = "Last DB Import: " + " "
+            + (currentdate.getMonth()+1)  + "/" 
+            + currentdate.getDate() + "/"
+            + currentdate.getFullYear() + " @ "  
+            + currentdate.getHours() + ":"  
+            + currentdate.getMinutes() + ":" 
+            + currentdate.getSeconds();
+            document.write(datetime);
+        </script>
+</p>
+
+
+<div class="container" >
+        <div class="jumbotron text-center" style="width: 100%;background-image: url('https://spunout.ie/images/made/images/articles/shutterstock_40508932_800_440_80_c1.jpg')">
+            <h3> Smoking Smoking Smoking </h3>
+        </div>
+        <select name="name" id="cboOptions" onchange="showDiv('div',this);" class="form-control" >
+                <option value="0" style="text-align: center">Make a selection</option>
+                <option value="1">2012</option>
+                <option value="2">2014</option>
+            </select>
+</div>
+ 
+<div id="div0" style="display:block;">
+    <h2 class="text-center">Tobacco Related Spending from 2012 and 2014</h2>
+        <p><span class="emphasis"><b>FACT: In 2016, tobacco companies spent $9.5 billion marketing cigarettes and smokeless tobacco in the United States. This amount translates to about $26 million each day, or more than $1 million every hour.</span><sup>1</sup>
+        -Source: https://www.cdc.gov/tobacco/data_statistics/fact_sheets/economics/econ_facts/index.htm</b></p>
+    <ul>
+        <li>Cigarette advertising and promotional expenses totaled approximately $8.7 billion in 2016—an increase from $8.3 billion during 2015. In 2016, about 66.7% (about $5.8 billion) of this was spent on price discounts paid to cigarette retailers to reduce the cost of cigarettes to consumers.<sup>1</sup></li>
+        <li>Manufacturers spent a total of $759.3 million on smokeless tobacco advertising and promotion during 2016—an increase from $684.9 million in 2015.<sup>2</sup></li>
+        <li>A number of electronic products, such as electronic cigarettes (e-cigarettes), electronic cigars (e-cigars), and electronic pipes (e-pipes), are being introduced in the marketplace. However, current information on spending for marketing and promotion of these products is currently not available.</li>
+        <li>Sales of e-cigarettes grew considerably during 2011–2015. During 2014-2015 alone, unit sales for e-cigarettes grew 14.4% overall. During this period, unit sales of disposable e-cigarettes declined 42.7%, unit sales of rechargeable e-cigarettes increased 5.3%, unit sales of e-cigarette liquid refills increased 307.7%, and unit sales of prefilled e-cigarette cartridges increased 31.6%. <sup>3</sup></li>
+    </ul>
+</div>
+ 
+<div class="container">
+    <div class="row" >
+        <div id="div1" style="display:none;">
+            <h2 class="text-center">Average Cost of Smoking in 2012: Price per pack of cigarettes.</h2>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2012 Across 108 Countries - Bar Chart</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="master2012" class="text-center">
+                                            <!-- <h3>Year: 2012 Across 108 Countries - Bar Chart</h3> -->
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2012 Across 108 Countries - Scatter Chart</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="master2012b" class="text-center">
+                                            <!-- <h3>Year: 2012 Across 108 Countries - Scatter Chart</h3> -->
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2012 - (Max)Top 25 most expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2012_top25"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2012 - (Max)Top 10 most expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2012_top10"></div> 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2012 - (Min)Top 25 least expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2012_bot25"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2012 - (Min)Top 10 least expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2012_bot10"></div>    
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+        </div>
+    </div>
+</div>  
+
+
+<div class="container" >
+    <div class="row" >
+        <div id="div2" style="display:none;">
+            <h2 class="text-center">Average Cost of Smoking in 2014: Price per pack of cigarettes.</h2>
+        
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2014 Across 58 Countries - Bar Chart</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="master2014" class="text-center">
+                                            <!-- <h3>Year: 2014 Across 108 Countries - Bar Chart</h3> -->
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2014 Across 58 Countries - Scatter Chart</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="master2014b" class="text-center">
+                                            <!-- <h3>Year: 2014 Across 108 Countries - Scatter Chart</h3> -->
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2014 - (Max)Top 25 most expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2014_top25"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2014 - (Max)Top 10 most expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2014_top10"></div> 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2014 - (Min)Top 25 least expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2014_bot25"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center">Year: 2014 - (Min)Top 10 least expensive packs by Country in U.S. Dollars.</h3>
+                            </div>
+                            <div class="panel-body">
+                                    <div id="chart2014_bot10"></div>    
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr>
+        </div>
+    </div>
+</div>
+    
+
+<script>
+
+    makebarchart('master2012',barmaster12);
+    makescatterchart('master2012b',barmaster12)
+    makehorizontalchart('chart2012_top25',twelveGraphDataTop25);
+    makehorizontalchart('chart2012_top10',twelveGraphDataTop10);
+    makebarchart('chart2012_bot25',twelveGraphDataBot25);
+    makebarchart('chart2012_bot10',twelveGraphDataBot10);
+    
+    makebarchart('master2014',barmaster14);
+    makescatterchart('master2014b',barmaster14)
+    makehorizontalchart('chart2014_top25',fourteenGraphDataTop25);
+    makehorizontalchart('chart2014_top10',fourteenGraphDataTop10);
+    makebarchart('chart2014_bot25',fourteenGraphDataBot25);
+    makebarchart('chart2014_bot10',fourteenGraphDataBot10);
+
+</script>
+
+</body>
+
+</html>
